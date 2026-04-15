@@ -1,0 +1,20 @@
+﻿GOOGLE VERIFICATION INSTRUCTIONS
+================================
+
+1. Go to: https://search.google.com/search-console
+2. Select "URL prefix" and enter: https://erickotieno3.github.io
+3. Choose verification method:
+
+   OPTION A (HTML file):
+   - Download the HTML file Google provides
+   - Copy it to: C:\Windows.old\users\hyrise crown\Documents\hyrisecrown\medical-procedure-guide-cooufvryxgjhyuuxflrdp\erickotieno3.github.io\
+   - Run: git add . & git commit -m "Add verification" & git push
+
+   OPTION B (Meta tag - FASTER):
+   - Copy the meta tag Google provides
+   - Edit index.html and paste in <head> section
+   - Run: git add index.html & git commit -m "Add meta tag" & git push
+
+4. Wait 2 minutes
+5. Click "Verify" in Search Console
+6. Return to Play Console and verify there too
