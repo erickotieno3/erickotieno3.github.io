@@ -4,26 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HyriseCrown - Medical Procedure Guide</title>
-    <!-- GOOGLE WILL PROVIDE THIS META TAG - REPLACE WITH YOUR CODE -->
-    <!-- <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" /> -->
+    
+    <!-- =============================================== -->
+    <!-- GOOGLE SITE VERIFICATION META TAG (ACTIVE)      -->
+    <!-- =============================================== -->
+    <meta name="google-site-verification" content="_hTfMoXB69SfKOQPoijTkND1iTh3tj6mL5XnpeNJ8TA" />
+    <!-- =============================================== -->
+    
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1 { color: #2c3e50; }
-        .container { background: #f9f9f9; padding: 20px; border-radius: 8px; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 3rem 0;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+            font-size: 3rem;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 { font-size: 2rem; }
+            .container { padding: 1rem; }
+        }
     </style>
 </head>
 <body>
-    <h1>HyriseCrown Medical Apps</h1>
     <div class="container">
-        <p>Developer of Medical Procedure Guide for Google Play Store.</p>
-        <p>Contact: erickotienokjv@gmail.com</p>
-        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+        <div class="header">
+            <div class="app-icon">
+                🏥
+            </div>
+            <h1>Medical Procedure Guide</h1>
+            <p>Your trusted companion for understanding medical procedures</p>
+        </div>
+        
+        <div class="card">
+            <h2 style="text-align: center; color: #667eea;">Coming Soon to Google Play</h2>
+            <p style="text-align: center; margin-top: 1rem;">
+                Medical Procedure Guide helps patients understand medical procedures,
+                from preparation to recovery.
+            </p>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>📋 Step-by-Step Guides</h3>
+                <p>Detailed procedure explanations in easy-to-understand language</p>
+            </div>
+            <div class="feature">
+                <h3>💊 Recovery Tracking</h3>
+                <p>Monitor your recovery progress with personalized timelines</p>
+            </div>
+            <div class="feature">
+                <h3>🩺 Pre-Op Preparation</h3>
+                <p>Checklists and tips to prepare for your procedure</p>
+            </div>
+            <div class="feature">
+                <h3>🏥 Medical Supplies</h3>
+                <p>Recommended supplies from trusted partner Medisave UK</p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>About HyriseCrown</h3>
+            <p>
+                HyriseCrown is dedicated to providing high-quality medical information
+                to help patients make informed decisions about their healthcare.
+            </p>
+            <p style="margin-top: 1rem;">
+                <strong>Contact:</strong> erickotienokjv@gmail.com<br>
+                <strong>Developer:</strong> Erick Otieno<br>
+                <strong>Location:</strong> Kisumu, Kenya<br>
+                <strong>Organization:</strong> KISUMU HYRISE CROWN RESTAURANT<br>
+                <strong>D-U-N-S:</strong> 856081663
+            </p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2024 HyriseCrown. All rights reserved.</p>
+            <p>
+                <a href="privacy-policy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a>
+            </p>
+        </div>
     </div>
 </body>
 </html>
